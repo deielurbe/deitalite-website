@@ -62,14 +62,14 @@ const translations = {
     // ROI Section
     'roi.title': 'Better predictions = better profitability',
     'roi.subtitle': 'See how better forecasting turns into real savings for your restaurant.',
-    'roi.stat1.number': '10–20%',
-    'roi.stat1.title': 'Reduction in food waste',
+    'roi.stat1.number': '10–20% Reduction',
+    'roi.stat1.title': 'in food waste',
     'roi.stat1.text': 'Match prep to demand and cut spoilage and overordering. If you spend around €3,000 per month on food, that is roughly €300–600 saved.',
-    'roi.stat2.number': '5–10%',
-    'roi.stat2.title': 'Improvement in labor efficiency',
+    'roi.stat2.number': '5–10% Improvement',
+    'roi.stat2.title': 'in labor efficiency',
     'roi.stat2.text': 'Right-size staffing for busy and quiet days. Avoid overstaffing on slow, rainy services and understaffing on sunny, busy ones.',
     'roi.stat3.number': 'Fewer stockouts',
-    'roi.stat3.title': 'Avoid costly surprises',
+    'roi.stat3.title': 'and costly surprises',
     'roi.stat3.text': 'Do not run out of best-sellers on busy days. Forecasts help you stock the right items at the right time.',
     'roi.exampleLabel': 'ROI Example',
     'roi.example': 'If you save even €400 in a month on waste and labor, the €49 you pay for 30 days of access pays for itself about 8× over.',
@@ -195,14 +195,14 @@ const translations = {
     // ROI Section
     'roi.title': 'Better predictions = better profitability', // TODO: Translate
     'roi.subtitle': 'See how better forecasting turns into real savings for your restaurant.', // TODO: Translate
-    'roi.stat1.number': '10–20%',
-    'roi.stat1.title': 'Reduction in food waste', // TODO: Translate
+    'roi.stat1.number': '10–20% Reduction',
+    'roi.stat1.title': 'in food waste', // TODO: Translate
     'roi.stat1.text': 'Match prep to demand and cut spoilage and overordering. If you spend around €3,000 per month on food, that is roughly €300–600 saved.', // TODO: Translate
-    'roi.stat2.number': '5–10%',
-    'roi.stat2.title': 'Improvement in labor efficiency', // TODO: Translate
+    'roi.stat2.number': '5–10% Improvement',
+    'roi.stat2.title': 'in labor efficiency', // TODO: Translate
     'roi.stat2.text': 'Right-size staffing for busy and quiet days. Avoid overstaffing on slow, rainy services and understaffing on sunny, busy ones.', // TODO: Translate
     'roi.stat3.number': 'Fewer stockouts', // TODO: Translate
-    'roi.stat3.title': 'Avoid costly surprises', // TODO: Translate
+    'roi.stat3.title': 'and costly surprises', // TODO: Translate
     'roi.stat3.text': 'Do not run out of best-sellers on busy days. Forecasts help you stock the right items at the right time.', // TODO: Translate
     'roi.exampleLabel': 'ROI Example', // TODO: Translate
     'roi.example': 'If you save even €400 in a month on waste and labor, the €49 you pay for 30 days of access pays for itself about 8× over.', // TODO: Translate
@@ -326,14 +326,14 @@ const translations = {
     // ROI Section
     'roi.title': 'Better predictions = better profitability', // TODO: Translate
     'roi.subtitle': 'See how better forecasting turns into real savings for your restaurant.', // TODO: Translate
-    'roi.stat1.number': '10–20%',
-    'roi.stat1.title': 'Reduction in food waste', // TODO: Translate
+    'roi.stat1.number': '10–20% Reduction',
+    'roi.stat1.title': 'in food waste', // TODO: Translate
     'roi.stat1.text': 'Match prep to demand and cut spoilage and overordering. If you spend around €3,000 per month on food, that is roughly €300–600 saved.', // TODO: Translate
-    'roi.stat2.number': '5–10%',
-    'roi.stat2.title': 'Improvement in labor efficiency', // TODO: Translate
+    'roi.stat2.number': '5–10% Improvement',
+    'roi.stat2.title': 'in labor efficiency', // TODO: Translate
     'roi.stat2.text': 'Right-size staffing for busy and quiet days. Avoid overstaffing on slow, rainy services and understaffing on sunny, busy ones.', // TODO: Translate
     'roi.stat3.number': 'Fewer stockouts', // TODO: Translate
-    'roi.stat3.title': 'Avoid costly surprises', // TODO: Translate
+    'roi.stat3.title': 'and costly surprises', // TODO: Translate
     'roi.stat3.text': 'Do not run out of best-sellers on busy days. Forecasts help you stock the right items at the right time.', // TODO: Translate
     'roi.exampleLabel': 'ROI Example', // TODO: Translate
     'roi.example': 'If you save even €400 in a month on waste and labor, the €49 you pay for 30 days of access pays for itself about 8× over.', // TODO: Translate
