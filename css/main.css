@@ -268,6 +268,60 @@ section:nth-child(even) {
   margin-top: var(--spacing-lg);
 }
 
+/* Cookie / consent banner */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--color-white);
+  border-top: 1px solid var(--color-gray-light);
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.05);
+  padding: var(--spacing-sm) 0;
+  z-index: 2000;
+  display: none;
+}
+
+.cookie-banner.visible {
+  display: block;
+}
+
+.cookie-banner-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.cookie-message {
+  font-size: var(--font-size-small);
+  color: var(--color-gray-medium);
+  text-align: left;
+}
+
+.cookie-message a {
+  color: var(--color-blue);
+  text-decoration: underline;
+}
+
+.cookie-actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.btn-small {
+  font-size: var(--font-size-small);
+  padding: 8px 16px;
+}
+
+@media (max-width: 768px) {
+  .cookie-banner-inner {
+    align-items: flex-start;
+  }
+}
+
 @media (max-width: 768px) {
   .start-grid {
     grid-template-columns: 1fr;

@@ -145,6 +145,11 @@ const translations = {
     'footer.how': 'How it works',
     'footer.pricing': 'Pricing',
 
+    // Cookie / consent banner
+    'cookie.message': 'We use cookies and Google Analytics to understand how visitors use deitalite and to improve the site. You can accept or decline analytics cookies. Read more in our <a href="privacy.html">Privacy Policy</a>.',
+    'cookie.accept': 'Accept',
+    'cookie.decline': 'Decline',
+
     // Final CTA Section
     'cta.title': 'Start planning smarter this week',
     'cta.subtitle': 'Join the first wave of restaurants using weather-smart forecasts to cut waste and boost efficiency.',
@@ -306,6 +311,11 @@ const translations = {
     'footer.how': 'Hoe het werkt',
     'footer.pricing': 'Prijzen',
 
+    // Cookie / consent banner
+    'cookie.message': 'We gebruiken cookies en Google Analytics om te begrijpen hoe bezoekers deitalite gebruiken en om de site te verbeteren. Je kunt analysecookies accepteren of weigeren. Lees meer in ons <a href="privacy.html">Privacybeleid</a>.',
+    'cookie.accept': 'Accepteren',
+    'cookie.decline': 'Weigeren',
+
     // Final CTA Section
     'cta.title': 'Begin deze week slimmer te plannen',
     'cta.subtitle': 'Sluit je aan bij de eerste restaurants die weerslimme voorspellingen gebruiken om verspilling te verlagen en efficiënter te werken.',
@@ -464,6 +474,11 @@ const translations = {
     'start.cta.urgency': 'Siempre puedes volver a esta página desde la página principal si aún no estás listo.',
     'footer.how': 'Cómo funciona',
     'footer.pricing': 'Precios',
+
+    // Cookie / consent banner
+    'cookie.message': 'Utilizamos cookies y Google Analytics para entender cómo los visitantes usan deitalite y para mejorar el sitio. Puedes aceptar o rechazar las cookies de análisis. Más información en nuestra <a href="privacy.html">Política de privacidad</a>.',
+    'cookie.accept': 'Aceptar',
+    'cookie.decline': 'Rechazar',
 
     // Final CTA Section
     'cta.title': 'Empieza a planificar mejor esta semana',
