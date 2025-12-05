@@ -117,6 +117,34 @@ const translations = {
     'faq.q13.question': 'What\'s coming next?',
     'faq.q13.answer': 'We are developing drink forecasting and category-level predictions, planned for launch in early 2026. Early users will be the first to get access to these new features.',
 
+    // Start Page
+    'start.hero.title': 'Start your 30-day access',
+    'start.hero.subtitle': 'Pay a one-time fee of €49, upload your sales data, and get a weather-smart forecast dashboard for your restaurant within one business day. No subscription, no lock-in.',
+    'start.hero.badge': '30 days access · No subscription · Stops automatically',
+    'start.hero.back': 'Back to overview',
+    'start.what.title': 'What you get',
+    'start.what.item1': '30 days of access to your private forecast dashboard.',
+    'start.what.item2': '7-day rolling forecast that updates daily with weather.',
+    'start.what.item3': 'Item-level predictions so you can plan prep and ordering.',
+    'start.what.item4': 'Secure handling of your sales data.',
+    'start.what.item5': 'Email support with a typical response time of 24–48 hours.',
+    'start.need.title': 'What you need ready',
+    'start.need.item1': 'At least around 90 days of item-level sales data from your POS (CSV or Excel export).',
+    'start.need.item2': 'Your restaurant’s location (city) so we can connect the right weather data.',
+    'start.need.item3': 'An email address where we can send your upload link and dashboard login.',
+    'start.steps.title': 'What happens after you pay',
+    'start.steps.step1.title': 'Secure checkout',
+    'start.steps.step1.text': 'You will be redirected to Moneybird’s secure payment page to pay €49 for 30 days of access.',
+    'start.steps.step2.title': 'Upload your sales data',
+    'start.steps.step2.text': 'After payment, you receive an email with a secure upload link and simple instructions to export and send your sales data.',
+    'start.steps.step3.title': 'Your dashboard is ready',
+    'start.steps.step3.text': 'Within one business day, we prepare your forecast and email your login details so you can start planning with your new dashboard.',
+    'start.note': 'If you decide not to continue after 30 days, access stops automatically. You only pay again if you choose to renew.',
+    'start.cta.button': 'Continue to secure checkout',
+    'start.cta.urgency': 'You can always come back to this page from the homepage if you are not ready yet.',
+    'footer.how': 'How it works',
+    'footer.pricing': 'Pricing',
+
     // Final CTA Section
     'cta.title': 'Start planning smarter this week',
     'cta.subtitle': 'Join the first wave of restaurants using weather-smart forecasts to cut waste and boost efficiency.',
@@ -250,6 +278,34 @@ const translations = {
     'faq.q13.question': 'What\'s coming next?', // TODO: Translate
     'faq.q13.answer': 'We are developing drink forecasting and category-level predictions, planned for launch in early 2026. Early users will be the first to get access to these new features.', // TODO: Translate
 
+    // Start Page
+    'start.hero.title': 'Begin met je toegang van 30 dagen',
+    'start.hero.subtitle': 'Betaal een eenmalig bedrag van €49, upload je verkoopdata en ontvang binnen één werkdag een weerslim voorspellingsdashboard voor jouw restaurant. Geen abonnement, geen verplichtingen.',
+    'start.hero.badge': '30 dagen toegang · Geen abonnement · Stopt automatisch',
+    'start.hero.back': 'Terug naar overzicht',
+    'start.what.title': 'Wat je krijgt',
+    'start.what.item1': '30 dagen toegang tot je eigen, privé voorspellingsdashboard.',
+    'start.what.item2': '7-daagse doorlopende voorspelling die dagelijks wordt bijgewerkt met het weer.',
+    'start.what.item3': 'Voorspellingen op itemniveau zodat je mise-en-place en bestelling kunt plannen.',
+    'start.what.item4': 'Veilige omgang met je verkoopdata.',
+    'start.what.item5': 'E-mailondersteuning met een typische reactietijd van 24–48 uur.',
+    'start.need.title': 'Wat je nodig hebt',
+    'start.need.item1': 'Minstens ongeveer 90 dagen verkoopdata op itemniveau uit je kassasysteem (CSV- of Excel-export).',
+    'start.need.item2': 'De locatie van je restaurant (stad) zodat we het juiste weer kunnen koppelen.',
+    'start.need.item3': 'Een e-mailadres waar we je uploadlink en dashboardlogin naartoe kunnen sturen.',
+    'start.steps.title': 'Wat er gebeurt na je betaling',
+    'start.steps.step1.title': 'Beveiligde betaling',
+    'start.steps.step1.text': 'Je wordt doorgestuurd naar de beveiligde betaalpagina van Moneybird om €49 te betalen voor 30 dagen toegang.',
+    'start.steps.step2.title': 'Upload je verkoopdata',
+    'start.steps.step2.text': 'Na betaling ontvang je een e-mail met een beveiligde uploadlink en eenvoudige instructies om je verkoopdata te exporteren en te versturen.',
+    'start.steps.step3.title': 'Je dashboard staat klaar',
+    'start.steps.step3.text': 'Binnen één werkdag bereiden we je voorspelling voor en mailen we je inloggegevens zodat je direct met het dashboard kunt plannen.',
+    'start.note': 'Als je na 30 dagen niet wilt doorgaan, stopt de toegang automatisch. Je betaalt alleen opnieuw als je ervoor kiest te verlengen.',
+    'start.cta.button': 'Ga verder naar beveiligde betaling',
+    'start.cta.urgency': 'Je kunt altijd via de homepage terugkeren naar deze pagina als je nog niet zover bent.',
+    'footer.how': 'Hoe het werkt',
+    'footer.pricing': 'Prijzen',
+
     // Final CTA Section
     'cta.title': 'Start planning smarter this week', // TODO: Translate
     'cta.subtitle': 'Join the first wave of restaurants using weather-smart forecasts to cut waste and boost efficiency.', // TODO: Translate
@@ -380,6 +436,34 @@ const translations = {
     'faq.q12.answer': 'Currently, the dashboard focuses on food items. We are working on adding drink forecasting capabilities and expect to launch this feature in early 2026.', // TODO: Translate
     'faq.q13.question': 'What\'s coming next?', // TODO: Translate
     'faq.q13.answer': 'We are developing drink forecasting and category-level predictions, planned for launch in early 2026. Early users will be the first to get access to these new features.', // TODO: Translate
+
+    // Start Page
+    'start.hero.title': 'Empieza tu acceso de 30 días',
+    'start.hero.subtitle': 'Paga una sola vez €49, sube tus datos de ventas y recibe en un día laborable un panel de previsión inteligente con el tiempo para tu restaurante. Sin suscripción, sin compromiso.',
+    'start.hero.badge': '30 días de acceso · Sin suscripción · Se detiene automáticamente',
+    'start.hero.back': 'Volver al resumen',
+    'start.what.title': 'Lo que obtienes',
+    'start.what.item1': '30 días de acceso a tu panel de previsión privado.',
+    'start.what.item2': 'Previsión continua de 7 días que se actualiza a diario con el tiempo.',
+    'start.what.item3': 'Predicciones a nivel de producto para planificar la preparación y los pedidos.',
+    'start.what.item4': 'Tratamiento seguro de tus datos de ventas.',
+    'start.what.item5': 'Soporte por correo electrónico con un tiempo de respuesta habitual de 24–48 horas.',
+    'start.need.title': 'Lo que necesitas tener listo',
+    'start.need.item1': 'Al menos unos 90 días de datos de ventas a nivel de producto desde tu TPV (exportación CSV o Excel).',
+    'start.need.item2': 'La ubicación de tu restaurante (ciudad) para conectar los datos meteorológicos correctos.',
+    'start.need.item3': 'Una dirección de correo electrónico donde podamos enviarte el enlace de subida y el acceso al panel.',
+    'start.steps.title': 'Qué ocurre después de pagar',
+    'start.steps.step1.title': 'Pago seguro',
+    'start.steps.step1.text': 'Se te redirigirá a la página de pago segura de Moneybird para abonar €49 por 30 días de acceso.',
+    'start.steps.step2.title': 'Sube tus datos de ventas',
+    'start.steps.step2.text': 'Después del pago recibirás un correo con un enlace seguro de subida y unas instrucciones sencillas para exportar y enviar tus datos de ventas.',
+    'start.steps.step3.title': 'Tu panel está listo',
+    'start.steps.step3.text': 'En un día laborable preparamos tu previsión y te enviamos por correo tus datos de acceso para que puedas empezar a planificar con el nuevo panel.',
+    'start.note': 'Si decides no continuar después de 30 días, el acceso se detiene automáticamente. Solo vuelves a pagar si decides renovar.',
+    'start.cta.button': 'Continuar al pago seguro',
+    'start.cta.urgency': 'Siempre puedes volver a esta página desde la página principal si aún no estás listo.',
+    'footer.how': 'Cómo funciona',
+    'footer.pricing': 'Precios',
 
     // Final CTA Section
     'cta.title': 'Start planning smarter this week', // TODO: Translate
