@@ -6,6 +6,7 @@
 :root {
   /* Colors */
   --color-brand-green: #3e573c;
+  --color-brand-green-light: rgba(62, 87, 60, 0.08);
   --color-white: #ffffff;
   --color-off-white: #f8f9f7;
   --color-success: #27AE60;
@@ -551,7 +552,7 @@ section:nth-child(even) {
   font-size: var(--font-size-small);
   color: var(--color-gray-medium);
   margin-top: var(--spacing-sm);
-  background-color: var(--color-primary-light);
+  background-color: var(--color-brand-green-light);
   padding: var(--spacing-xs) var(--spacing-sm);
   border-radius: var(--radius-sm);
   display: inline-block;

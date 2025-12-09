@@ -1,0 +1,14 @@
+# Robots.txt for deitalite.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://deitalite.com/sitemap.xml
+
+# Disallow internal/development files
+Disallow: /.git/
+Disallow: /.claude/
+Disallow: /*.Rproj
+Disallow: /WEBSITE_IMPROVEMENTS.html
+Disallow: /WEBSITE_IMPROVEMENTS.md

@@ -18,8 +18,8 @@ const i18n = {
 
   // Initialize the i18n system
   init() {
-    // Get language from localStorage or browser
-    const savedLang = localStorage.getItem('deitalite_lang');
+    // Get language from localStorage or browser (with fallback for private mode)
+    const savedLang = this.getSavedLanguage();
     const browserLang = this.detectBrowserLanguage();
 
     // Priority: savedLang > browserLang > default (en)
@@ -30,8 +30,16 @@ const i18n = {
 
     // Setup language selector listeners
     this.setupLanguageSelector();
+  },
 
-    console.log(`deitalite: Language initialized to ${initialLang}`);
+  // Get saved language from localStorage (handles private browsing mode)
+  getSavedLanguage() {
+    try {
+      return localStorage.getItem('deitalite_lang');
+    } catch (e) {
+      // localStorage not available (private mode or disabled)
+      return null;
+    }
   },
 
   // Detect browser language
@@ -61,8 +69,12 @@ const i18n = {
     // Update current language
     this.currentLang = lang;
 
-    // Save to localStorage
-    localStorage.setItem('deitalite_lang', lang);
+    // Save to localStorage (with fallback for private mode)
+    try {
+      localStorage.setItem('deitalite_lang', lang);
+    } catch (e) {
+      // localStorage not available - language will reset on page reload
+    }
 
     // Update HTML lang attribute
     document.documentElement.lang = lang;
@@ -97,8 +109,6 @@ const i18n = {
           // Use innerHTML to preserve HTML tags in translations (e.g., <em>, <br>)
           element.innerHTML = translation;
         }
-      } else {
-        console.warn(`Translation missing for key: ${key} in language: ${lang}`);
       }
     });
 
@@ -109,8 +119,6 @@ const i18n = {
 
       if (translation) {
         element.innerHTML = translation;
-      } else {
-        console.warn(`Translation missing for key: ${key} in language: ${lang}`);
       }
     });
   },

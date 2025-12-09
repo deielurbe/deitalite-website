@@ -58,8 +58,6 @@ function trackCTAClick(buttonText, section) {
     });
   }
 
-  // Console log for debugging (remove in production)
-  console.log('CTA clicked:', buttonText, 'in section:', section);
 }
 
 // Attach tracking to all CTA buttons
@@ -184,7 +182,12 @@ document.querySelectorAll('.faq-question').forEach(button => {
   });
 });
 
-// 9. Console welcome message (optional branding)
-console.log('%cDeitalite', 'font-size: 24px; font-weight: bold; color: #3e573c;');
-console.log('%cWeather-smart restaurant forecasting', 'font-size: 14px; color: #7f8c8d;');
-console.log('Interested in our technology? Check out our GitHub: https://github.com/yourusername/deitalite');
+// 9. Keyboard accessibility for FAQ accordion
+document.querySelectorAll('.faq-question').forEach(button => {
+  button.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      button.click();
+    }
+  });
+});
