@@ -57,6 +57,8 @@ const translations = {
     'features.item5.text': 'Download your forecasts as a CSV in seconds and easily share them with your kitchen team, bar staff, or suppliers for coordinated planning.',
     'features.item6.title': 'No subscription, no lock-in',
     'features.item6.text': 'Pay once for 30 days of access. If it does not clearly help after a month, walk away — no subscription, no commitment, no hassle.',
+    'features.item7.title': 'Holidays and events',
+    'features.item7.text': 'Your forecast accounts for public holidays, local festivals, and cruise ship arrivals that affect demand beyond just weather patterns.',
     'features.cta': 'Start forecasting for €49',
 
     // ROI Section
@@ -223,6 +225,8 @@ const translations = {
     'features.item5.text': 'Download je voorspellingen in seconden als CSV en deel ze gemakkelijk met keuken, bar of leveranciers voor gezamenlijke planning.',
     'features.item6.title': 'Geen abonnement, geen vast contract',
     'features.item6.text': 'Je betaalt één keer voor 30 dagen toegang. Helpt het niet duidelijk binnen een maand, dan stop je gewoon — geen abonnement, geen verplichtingen, geen gedoe.',
+    'features.item7.title': 'Feestdagen en evenementen',
+    'features.item7.text': 'Je voorspelling houdt rekening met feestdagen, lokale festivals en cruiseaankomsten die de vraag beïnvloeden, naast het weer.',
     'features.cta': 'Begin met voorspellen voor €49',
 
     // ROI Section
@@ -387,6 +391,8 @@ const translations = {
     'features.item5.text': 'Descarga tus previsiones en segundos como CSV y compártelas fácilmente con cocina, barra o proveedores para una planificación coordinada.',
     'features.item6.title': 'Sin suscripción ni permanencia',
     'features.item6.text': 'Pagas una sola vez por 30 días de acceso. Si no te aporta claridad en un mes, simplemente dejas de usarlo — sin suscripción, sin compromiso, sin líos.',
+    'features.item7.title': 'Festivos y eventos',
+    'features.item7.text': 'Tu previsión tiene en cuenta festivos, fiestas locales y llegadas de cruceros que afectan la demanda más allá del tiempo.',
     'features.cta': 'Empieza a mejorar tus pronósticos por 49 €',
 
     // ROI Section
