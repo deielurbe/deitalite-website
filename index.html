@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>deitalite | Restaurant Sales Forecasting with Weather</title>
-  <meta name="description" content="Reduce food waste by 10-20% with weather-smart 7-day sales forecasts. Built for independent restaurants. No subscription, €49/month launch pricing.">
+  <title>deitalite | Daily Prep Plan Adjusted for Weather</title>
+  <meta name="description" content="Your daily prep plan — already adjusted for the weather. Item-level quantities for the next 7 days. Works with any POS export. €49 for 30 days.">
 
   <!-- Open Graph (social sharing) -->
-  <meta property="og:title" content="deitalite | Weather-Smart Restaurant Forecasting">
-  <meta property="og:description" content="7-day sales forecasts that adjust for weather. Cut waste, improve efficiency, plan with confidence.">
+  <meta property="og:title" content="deitalite | Daily Prep Plan Adjusted for Weather">
+  <meta property="og:description" content="Stop guessing prep. Get item-level quantities for the next 7 days, adjusted for weather.">
   <meta property="og:image" content="https://deitalite.com/assets/images/og-image.png">
   <meta property="og:url" content="https://deitalite.com">
   <meta property="og:type" content="website">
@@ -39,7 +39,7 @@
       "price": "49",
       "priceCurrency": "EUR"
     },
-    "description": "Restaurant sales forecasting with weather integration"
+    "description": "Daily prep plan for restaurants, adjusted for weather"
   }
   </script>
 </head>
@@ -50,33 +50,9 @@
     <div class="container">
       <a href="#" class="logo">deitalite</a>
       <div class="header-right">
-        <!-- Language Selector -->
-        <div id="language-selector" class="language-selector">
-          <button class="lang-button">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lang-icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
-            </svg>
-            <span id="current-lang">English</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="chevron-icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-            </svg>
-          </button>
-          <div class="lang-dropdown">
-            <div class="lang-option" data-lang="en">
-              <span class="lang-flag">🇬🇧</span>
-              <span class="lang-name">English</span>
-            </div>
-            <div class="lang-option" data-lang="nl">
-              <span class="lang-flag">🇳🇱</span>
-              <span class="lang-name">Nederlands</span>
-            </div>
-            <div class="lang-option" data-lang="es">
-              <span class="lang-flag">🇪🇸</span>
-              <span class="lang-name">Español</span>
-            </div>
-          </div>
-        </div>
-        <a href="start.html" class="btn-primary" data-i18n="nav.cta">Get Started</a>
+        <!-- Secondary link: See a sample -->
+        <a href="#proof" class="header-link">See a sample</a>
+        <a href="start.html" class="btn-primary">Start 30 days</a>
       </div>
     </div>
   </header>
@@ -87,92 +63,93 @@
       <div class="usp-items">
         <div class="usp-item">
           <span class="usp-icon">✓</span>
-          <span data-i18n="usp.item1">Setup in 1 day</span>
+          <span>Works with most POS exports</span>
         </div>
         <div class="usp-item">
           <span class="usp-icon">✓</span>
-          <span data-i18n="usp.item2">No subscription</span>
+          <span>Ready in 1 business day</span>
         </div>
         <div class="usp-item">
           <span class="usp-icon">✓</span>
-          <span data-i18n="usp.item3">€49 launch pricing</span>
+          <span>€49 for 30 days · stops automatically</span>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- Section 1: Hero -->
+  <!-- Section 1: Hero (REWORKED - Artifact-first) -->
   <section id="hero">
     <div class="container">
       <div class="hero-content">
-        <h1 data-i18n="hero.title">Predict your restaurant's sales based on weather</h1>
-        <p class="hero-subheadline" data-i18n="hero.subtitle">Know how many guests and portions to prep for each day, with a forecast tailored to your restaurant.</p>
+        <h1>Your daily prep plan — already adjusted for the weather</h1>
+        <p class="hero-subheadline">You already check the weather. Deitalite turns it into a daily prep plan for your restaurant — item-level quantities for the next 7 days.</p>
         <ul class="hero-benefits">
-          <li data-i18n="hero.benefit1">Cut food waste by 10–20%</li>
-          <li data-i18n="hero.benefit2">Improve staffing efficiency by 5–10%</li>
-          <li data-i18n="hero.benefit3">Avoid stockouts on busy days</li>
+          <li>Prep the right amount — less waste, fewer shortages</li>
+          <li>Staff for what's actually coming</li>
+          <li>Order with confidence, not guesswork</li>
         </ul>
         <div class="hero-cta-buttons">
-          <a href="start.html" class="btn-primary btn-large" data-i18n="hero.cta">Start forecasting for €49</a>
-          <a href="https://deielurbe.shinyapps.io/deita-forecast-demo/" class="btn-secondary btn-large" data-i18n="hero.demo">View demo</a>
+          <a href="start.html" class="btn-primary btn-large">Start 30 days for €49</a>
+          <a href="#proof" class="btn-secondary btn-large">See a sample</a>
         </div>
-        <p class="hero-trust-signal" data-i18n="hero.trust">30 days access · No subscription · One-time payment · Setup in 1 day</p>
+        <p class="hero-trust-signal">No app to install · No subscription · Stops automatically</p>
       </div>
       <div class="hero-visual">
-        <img src="assets/images/hero-dashboard.png" alt="deitalite Dashboard showing weather forecast and sales predictions" loading="eager">
+        <img src="assets/images/hero-dashboard.png" alt="deitalite daily prep plan showing item quantities for the week ahead" loading="eager">
       </div>
     </div>
   </section>
 
-  <!-- Section 2: Problem -->
+  <!-- Section 2: Problem (REWORKED - Added change detection framing) -->
   <section id="problem">
     <div class="container-narrow">
-      <h2 data-i18n="problem.title">You already watch the weather — we help turn it into numbers</h2>
-      <p data-i18n="problem.intro">You follow the forecast, you know how your terrace responds to sun or rain, and you adjust accordingly. What's tricky is knowing <em>how much</em> the weather will really change your guests and portions for each day.</p>
+      <h2>You already watch the weather — we turn it into numbers</h2>
+      <p>You follow the forecast, you know how your terrace responds to sun or rain, and you adjust accordingly. The tricky part isn't predicting weather — it's knowing <em>how much changes</em> compared to a normal Tuesday, Saturday, or Sunday.</p>
       <ul class="problem-list">
-        <li data-i18n="problem.item1">A rainy Saturday slows the terrace, but by how many tables?</li>
-        <li data-i18n="problem.item2">A warm evening boosts light dishes and cold drinks — but how much extra prep and staff do you really need?</li>
-        <li data-i18n="problem.item3">A grey, chilly day softens demand, but it's tricky to see what to scale back.</li>
+        <li>A rainy Saturday slows the terrace — but by how many covers?</li>
+        <li>A warm evening boosts light dishes and cold drinks — but how much extra prep?</li>
+        <li>A grey, chilly day softens demand — what exactly should you scale back?</li>
       </ul>
-      <p data-i18n="problem.conclusion">Your experience already gives you a strong feel for demand. A weather-based forecast simply puts clear numbers on top of that instinct, so you can plan guests, portions, orders and staffing with more confidence.</p>
+      <p>Your experience already gives you a strong feel for demand. We put numbers on top of that instinct — so you can plan with confidence instead of guesswork.</p>
       <div class="section-cta">
-        <a href="#how-it-works" class="btn-primary" data-i18n="problem.cta">See how it works</a>
+        <a href="#how-it-works" class="btn-primary">See how it works</a>
       </div>
     </div>
   </section>
 
-  <!-- Section 3: How It Works -->
+  <!-- Section 3: How It Works (REWORKED - "Works with your stack" framing) -->
   <section id="how-it-works">
     <div class="container">
-      <h2 data-i18n="how.title">Get your forecast in 3 simple steps</h2>
-      <p class="how-subtitle" data-i18n="how.subtitle">Your part takes just a few minutes — the rest is automatic.</p>
+      <h2>Works with what you already use</h2>
+      <p class="how-subtitle">If you can export a sales report, we can build your forecast. No integration required.</p>
       <div class="steps-grid">
         <div class="step-card">
           <div class="step-number">1</div>
-          <h3 data-i18n="how.step1.title">Export your sales</h3>
-          <p data-i18n="how.step1.text">Exporting your data is easy. Every POS has an export option, usually just a couple of clicks. If you get stuck, we will help you.</p>
+          <h3>Export your sales (we help)</h3>
+          <p>Export item-level sales from your POS as CSV or Excel. Most systems do this in a few clicks. Stuck? We'll walk you through it.</p>
         </div>
         <div class="step-card">
           <div class="step-number">2</div>
-          <h3 data-i18n="how.step2.title">Quick and safe upload to deitalite</h3>
-          <p data-i18n="how.step2.text">Upload your file to your secure deitalite environment. Your data stays safe and private.</p>
+          <h3>We build your forecast</h3>
+          <p>We combine your sales history with weather patterns and calendar effects to create a forecast tailored to your restaurant.</p>
         </div>
         <div class="step-card">
           <div class="step-number">3</div>
-          <h3 data-i18n="how.step3.title">Access your dashboard</h3>
-          <p data-i18n="how.step3.text">Within one business day, your personal dashboard is ready, and you can start forecasting immediately!</p>
+          <h3>Check your daily prep plan</h3>
+          <p>You get a private link. Open it each morning, see item quantities for the week ahead. 30 seconds and you're done.</p>
         </div>
       </div>
+      <p style="text-align: center; margin-top: var(--spacing-lg); color: var(--color-gray-medium);">No app, no training, no new workflow.</p>
     </div>
   </section>
 
-  <!-- Section 4: Features -->
+  <!-- Section 4: What You Get Each Day (REWORKED - renamed from Features) -->
   <section id="features">
     <div class="container">
-      <h2 data-i18n="features.title">Weather-smart forecasting that fits your restaurant</h2>
+      <h2>What you get each day</h2>
 
       <div class="feature-category">
-        <h3 class="category-title" data-i18n="features.category1.title">Smart forecasting</h3>
+        <h3 class="category-title">Your daily prep plan</h3>
         <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon">
@@ -180,17 +157,8 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
             </svg>
           </div>
-          <h3 data-i18n="features.item1.title">Item-level predictions</h3>
-          <p data-i18n="features.item1.text">See expected sales for each dish per day, so you know how much to prep and what to order for every item on your menu.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
-            </svg>
-          </div>
-          <h3 data-i18n="features.item2.title">Weather and sales</h3>
-          <p data-i18n="features.item2.text">Your forecast studies daily past sales and weather to predict how day of the week, temperature and rain patterns affect your restaurant's demand.</p>
+          <h3>Item-level quantities</h3>
+          <p>See how many of each dish to prepare — today, tomorrow, and the whole week ahead. No more "roughly 30 portions".</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -198,8 +166,8 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
             </svg>
           </div>
-          <h3 data-i18n="features.item3.title">7-day rolling forecast</h3>
-          <p data-i18n="features.item3.text">Always see today plus the next 6 days at a glance. Updated daily to help you plan weekly ordering, staff scheduling, and prep.</p>
+          <h3>7-day rolling view</h3>
+          <p>Today plus the next 6 days, updated every morning. Plan ordering, staffing, and prep in one glance.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -207,23 +175,23 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
             </svg>
           </div>
-          <h3 data-i18n="features.item4.title">Compare to your usual days</h3>
-          <p data-i18n="features.item4.text">See how each day's forecast differs from your typical day of the week, so you instantly know whether to expect a quieter, normal or busier-than-average service.</p>
+          <h3>Busy vs quiet highlights</h3>
+          <p>See when a day looks different from your typical Tuesday or Saturday. Scale up or scale down at a glance.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15a4.5 4.5 0 0 0 4.5 4.5H18a3.75 3.75 0 0 0 1.332-7.257 3 3 0 0 0-3.758-3.848 5.25 5.25 0 0 0-10.233 2.33A4.502 4.502 0 0 0 2.25 15Z" />
             </svg>
           </div>
-          <h3 data-i18n="features.item7.title">Holidays and events</h3>
-          <p data-i18n="features.item7.text">Your forecast accounts for public holidays, local festivals, and cruise ship arrivals that affect demand beyond just weather patterns.</p>
+          <h3>Weather + events included</h3>
+          <p>Weather updates automatically. We can add public holidays, local festivals, and cruise arrivals that matter for your business.</p>
         </div>
       </div>
       </div>
 
       <div class="feature-category">
-        <h3 class="category-title" data-i18n="features.category2.title">Practical tools</h3>
+        <h3 class="category-title">Easy to use</h3>
         <div class="features-grid">
         <div class="feature-card">
           <div class="feature-icon">
@@ -231,8 +199,8 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
             </svg>
           </div>
-          <h3 data-i18n="features.item5.title">Easy CSV export</h3>
-          <p data-i18n="features.item5.text">Download your forecasts as a CSV in seconds and easily share them with your kitchen team, bar staff, or suppliers for coordinated planning.</p>
+          <h3>Download and share</h3>
+          <p>Export the week as CSV. Share with your kitchen, bar staff, or suppliers. Everyone can plan together.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -240,14 +208,14 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
             </svg>
           </div>
-          <h3 data-i18n="features.item6.title">No subscription, no lock-in</h3>
-          <p data-i18n="features.item6.text">Pay once for 30 days of access. If it does not clearly help after a month, walk away — no subscription, no commitment, no hassle.</p>
+          <h3>Try it, stop if it doesn't help</h3>
+          <p>€49 for 30 days. Stops automatically — no subscription, no cancellation needed. Continue only if it's useful.</p>
         </div>
       </div>
       </div>
 
       <div class="section-cta">
-        <a href="start.html" class="btn-primary btn-large" data-i18n="features.cta">Start forecasting for €49</a>
+        <a href="start.html" class="btn-primary btn-large">Start 30 days for €49</a>
       </div>
     </div>
   </section>
@@ -255,8 +223,8 @@
   <!-- Section 5: ROI -->
   <section id="roi">
     <div class="container">
-      <h2 data-i18n="roi.title">Better predictions = better profitability</h2>
-      <p class="roi-subtitle" data-i18n="roi.subtitle">See how better forecasting turns into real savings for your restaurant.</p>
+      <h2>The math is simple</h2>
+      <p class="roi-subtitle">Most restaurants waste more than €49 a month on over-ordering alone.</p>
       <div class="stats-grid">
         <div class="stat-card">
           <div class="stat-icon">
@@ -264,8 +232,8 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0" />
             </svg>
           </div>
-          <h3><span class="stat-number-inline" data-i18n="roi.stat1.number">10–20% Reduction</span><span data-i18n="roi.stat1.title">in food waste</span></h3>
-          <p data-i18n="roi.stat1.text">Match prep to demand and cut spoilage and overordering. If you spend around €3,000 per month on food, that is roughly €300–600 saved.</p>
+          <h3><span class="stat-number-inline">€300–600/month</span><span>less food waste</span></h3>
+          <p>Prep what you'll actually sell. Less spoilage, less over-ordering. On a typical €3,000 food spend, that's real money back.</p>
         </div>
         <div class="stat-card">
           <div class="stat-icon">
@@ -273,8 +241,8 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
             </svg>
           </div>
-          <h3><span class="stat-number-inline" data-i18n="roi.stat2.number">5–10% Improvement</span><span data-i18n="roi.stat2.title">in labor efficiency</span></h3>
-          <p data-i18n="roi.stat2.text">Right-size staffing for busy and quiet days. Avoid overstaffing on slow, rainy services and understaffing on sunny, busy ones.</p>
+          <h3><span class="stat-number-inline">Staff smarter</span><span>not harder</span></h3>
+          <p>Know when to call in extra hands and when to send someone home early. No more overstaffing slow days.</p>
         </div>
         <div class="stat-card">
           <div class="stat-icon">
@@ -282,172 +250,198 @@
               <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
             </svg>
           </div>
-          <h3><span class="stat-number-inline" data-i18n="roi.stat3.number">Fewer stockouts</span><span data-i18n="roi.stat3.title">and costly surprises</span></h3>
-          <p data-i18n="roi.stat3.text">Do not run out of best-sellers on busy days. Forecasts help you stock the right items at the right time.</p>
+          <h3><span class="stat-number-inline">Never 86 again</span><span>on a busy day</span></h3>
+          <p>Know ahead when you'll need extra stock. No more running out of best-sellers when the terrace is full.</p>
         </div>
       </div>
-      <p class="roi-example-label" data-i18n="roi.exampleLabel">ROI Example</p>
-      <p class="roi-example" data-i18n="roi.example">If you save even €400 in a month on waste and labor, the <del>€79</del> €49 you pay for 30 days of access pays for itself about <del>5×</del> 8× over.</p>
+      <p class="roi-example-label">Bottom line</p>
+      <p class="roi-example">Waste €50 of food a week? That's €200 a month. Deitalite costs €49 and pays for itself in week one.</p>
     </div>
   </section>
 
-  <!-- Section 6: Pricing -->
+  <!-- Section 6: Proof (NEW - before Pricing) -->
+  <section id="proof">
+    <div class="container">
+      <h2>What you'll check each morning</h2>
+      <p style="text-align: center; color: var(--color-gray-medium); margin-bottom: var(--spacing-xl);">Your private dashboard shows item quantities for the next 7 days — updated with fresh weather data every morning.</p>
+
+      <div class="proof-screenshot">
+        <img src="assets/images/hero-dashboard.png" alt="deitalite dashboard showing daily prep quantities" style="border-radius: var(--radius-md); box-shadow: var(--shadow-card); max-width: 100%;">
+      </div>
+
+      <div class="proof-callouts" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--spacing-lg); margin-top: var(--spacing-xl);">
+        <div class="proof-callout" style="text-align: center;">
+          <div style="font-size: 32px; margin-bottom: var(--spacing-xs);">📋</div>
+          <h4 style="margin-bottom: var(--spacing-xs);">Item quantities</h4>
+          <p style="color: var(--color-gray-medium); font-size: var(--font-size-small);">How many of each dish to prep — not percentages, actual numbers.</p>
+        </div>
+        <div class="proof-callout" style="text-align: center;">
+          <div style="font-size: 32px; margin-bottom: var(--spacing-xs);">🌤️</div>
+          <h4 style="margin-bottom: var(--spacing-xs);">Weather context</h4>
+          <p style="color: var(--color-gray-medium); font-size: var(--font-size-small);">See the forecast alongside your prep numbers. Know why Thursday looks different.</p>
+        </div>
+        <div class="proof-callout" style="text-align: center;">
+          <div style="font-size: 32px; margin-bottom: var(--spacing-xs);">📊</div>
+          <h4 style="margin-bottom: var(--spacing-xs);">Busy/quiet highlights</h4>
+          <p style="color: var(--color-gray-medium); font-size: var(--font-size-small);">Days that deviate from your normal pattern are highlighted. Scale up or down at a glance.</p>
+        </div>
+      </div>
+
+      <div class="section-cta" style="margin-top: var(--spacing-xl);">
+        <a href="https://deielurbe.shinyapps.io/deita-forecast-demo/" class="btn-secondary btn-large" target="_blank">Try the demo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: Pricing -->
   <section id="pricing">
     <div class="container">
-      <h2 data-i18n="pricing.title">Simple, transparent pricing</h2>
+      <h2>Simple pricing</h2>
       <div class="pricing-card">
-        <div class="badge" data-i18n="pricing.badge">LIMITED TIME</div>
+        <div class="badge">LIMITED TIME</div>
         <div class="price">
-          <span class="price-large" data-i18n="pricing.price">€49</span>
-          <span class="price-period" data-i18n="pricing.period">for 30 days of access</span>
-          <span class="price-regular" data-i18n="pricing.regular">Regular €79</span>
+          <span class="price-large">€49</span>
+          <span class="price-period">for 30 days</span>
+          <span class="price-regular">Regular €79</span>
         </div>
         <ul class="pricing-features">
-          <li data-i18n="pricing.feature1">✓ Item-level 7-day forecasts</li>
-          <li data-i18n="pricing.feature2">✓ Automatic weather updates</li>
-          <li data-i18n="pricing.feature3">✓ Private dashboard access</li>
-          <li data-i18n="pricing.feature5">✓ 1-day onboarding setup</li>
+          <li>✓ Daily prep quantities, item by item</li>
+          <li>✓ 7-day forecast, updated every morning</li>
+          <li>✓ Weather checked automatically</li>
+          <li>✓ Your own private dashboard</li>
+          <li>✓ Ready in 1 business day</li>
         </ul>
-        <a href="start.html" class="btn-primary btn-large" data-i18n="pricing.cta">Start your forecast for €49</a>
-        <p class="pricing-footer" data-i18n="pricing.footer">No credit card saved · Stops automatically</p>
-        <p class="pricing-renewal" data-i18n="pricing.renewal">Renews only if you choose</p>
+        <a href="start.html" class="btn-primary btn-large">Start 30 days for €49</a>
+        <p class="pricing-footer">No subscription · Stops automatically</p>
+        <p class="pricing-renewal">Continue only if it helps</p>
       </div>
     </div>
   </section>
 
-  <!-- Section 7: FAQ -->
+  <!-- Section 8: FAQ (REWORKED - Shorter answers, added POS clarity) -->
   <section id="faq">
     <div class="container">
-      <h2 data-i18n="faq.title">Frequently Asked Questions</h2>
+      <h2>Questions</h2>
       <div class="faq-grid">
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q1.question">What data do I need to provide?</h3>
+            <h3>Which POS systems work?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q1.answer">We preferably ask for 12 months of item-level sales data exported from your POS, ideally as a CSV or Excel file. If you do not have a full year yet, we can start from at least around 90 days of history, but forecasts will be more stable and useful with longer data. Your export should at least include the date, item name and quantity sold. If you are unsure how to export this, we are happy to help.</p>
+            <p><strong>Any POS that exports item-level sales as CSV or Excel.</strong> This includes Lightspeed, Square, Untill, Toast, Zettle, and most others. If you can pull a sales report with date, item name, and quantity, we can use it. Not sure how? We'll help you export.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q2.question">What will I actually do day to day?</h3>
+            <h3>What data do I need?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q2.answer">In practice, most restaurants simply check the dashboard once a day or a few times a week. You look at the next 7 days, see how busy each day is expected to be compared to your usual days and then adjust your prep, ordering and staff planning accordingly. It is designed to be a quick check before you make your decisions, not another system you need to manage.</p>
+            <p><strong>At least 90 days of sales data. 12 months is ideal.</strong> Your export should include date, item name, and quantity sold. Longer history = more accurate forecasts (we see seasonality patterns). We can start with 90 days and improve as you add more.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q3.question">How long does setup take?</h3>
+            <h3>What do I actually do each day?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q3.answer">Setup takes one business day. Once you have exported your sales data and uploaded it to Deitalite, we prepare your forecast dashboard and send you your login details within one business day.</p>
+            <p><strong>Open link → check quantities → share with team. 30 seconds.</strong> Most restaurants check once a day or a few times a week. You see the next 7 days, adjust prep/ordering/staffing accordingly. It's a quick check, not a system to manage.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q4.question">Do I need to upload new data after the first month?</h3>
+            <h3>How accurate are forecasts?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q4.answer">Yes. If you decide to continue after your first 30 days, we ask you to upload your latest sales data again. That way, your forecast stays up to date and reflects your most recent weeks and months. The process is the same simple export and upload you do the first time.</p>
+            <p><strong>Typically within 15–20% of actual sales, 80% of the time</strong> (with 12 months of data). The goal isn't to hit exact numbers — it's to reduce waste, avoid stockouts, and spot unusual days before they happen. Accuracy improves with more history.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q5.question">What if I do not have 12 months of data yet?</h3>
+            <h3>How long does setup take?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q5.answer">You can still get started. We can work with less history, as long as you have at least around 90 days of sales data. However, forecasts will be more reliable once you have a full year, because the system can see more patterns such as seasonality. If you start earlier, you can always upload more history later so the forecast can improve over time.</p>
+            <p><strong>1 business day.</strong> You export and send your sales data. We build your forecast and send you a private link + password within one business day.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q6.question">What if my menu changed in between?</h3>
+            <h3>Do I upload data every month?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q6.answer">Menu changes are normal. For the most accurate predictions, each item should ideally have at least 90 days of sales history. Newer dishes with less history can still be included, but their predictions will be less precise. If needed, we can also discuss grouping similar items so the forecast still gives you helpful guidance for prep and ordering.</p>
+            <p><strong>Yes, if you continue.</strong> After 30 days, upload fresh sales data to keep your forecast current. Same simple export process. This ensures your forecast reflects recent trends and menu changes.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q7.question">How accurate are the forecasts?</h3>
+            <h3>What if my menu changed?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q7.answer">Forecasts are never perfect, but they are designed to be accurate enough to meaningfully improve your planning. Daily forecasts are typically within 15–20% of actual sales, 80% of the time, especially when there is at least 12 months of sales history to learn from. Accuracy is highest for items and days where you have more history; with shorter histories of around 90 days, you can expect more variation.<br><br>In practice, restaurants use the forecast to reduce waste, avoid clear over- or understaffing and spot days that are likely to be quieter or busier than usual, rather than to hit an exact number every single time.</p>
+            <p><strong>Normal — we handle it.</strong> Each item ideally needs 90 days of history for best accuracy. New dishes work but are less precise. We can also group similar items so the forecast stays useful for prep.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q8.question">Can I cancel anytime?</h3>
+            <h3>Is my data secure?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q8.answer">You do not need to cancel anything. You pay once for 30 days of access, and it stops automatically at the end of that period. If you want to continue, you simply choose to purchase another month and send us your updated sales data. This way we make sure that your custom-made forecast is aware of the latest sales trends and items from your restaurant.</p>
+            <p><strong>Yes. Your data stays private and is never shared or sold.</strong> We store it securely, use it only to build your forecast, and delete it if you ask. See our <a href="privacy.html">Privacy Policy</a> for details.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q9.question">Do you integrate with my POS system?</h3>
+            <h3>Can I cancel anytime?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q9.answer">At the moment, we do not connect directly to POS systems. You export your sales data from your POS and upload it to Deitalite. Most systems make this export possible in just a few clicks. We are working towards direct integrations with major POS providers in the future, and early users will be the first to benefit from these.</p>
+            <p><strong>Nothing to cancel.</strong> You pay once for 30 days. Access stops automatically at the end. Continue only if you choose to buy another month.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q10.question">Is my data secure?</h3>
+            <h3>What about drinks?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q10.answer">Yes. Your data is stored in a secure environment and is only used to create forecasts for your restaurant. Access is limited, and we do not share your sales data with third parties. If you ever want your data to be removed, you can let us know and we will delete it.</p>
+            <p><strong>Food items for now. Drinks coming early 2026.</strong> We're developing drink forecasting and category-level predictions. Early users will get access first.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q11.question">What locations do you support?</h3>
+            <h3>Which locations do you support?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q11.answer">We support restaurants worldwide. Weather information is updated automatically from accurate global coverage and combined with your sales history to produce your forecast. Pricing is in euros, but we are happy to work with restaurants in any country.</p>
+            <p><strong>Worldwide.</strong> Weather data updates automatically with global coverage. Pricing is in euros but we work with restaurants anywhere.</p>
           </div>
         </div>
         <div class="faq-item">
           <button class="faq-question">
-            <h3 data-i18n="faq.q12.question">Does the dashboard include drinks?</h3>
+            <h3>Will you integrate with my POS directly?</h3>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q12.answer">Currently, the dashboard focuses on food items. We are working on adding drink forecasting capabilities and expect to launch this feature in early 2026.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">
-            <h3 data-i18n="faq.q13.question">What's coming next?</h3>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-answer">
-            <p data-i18n="faq.q13.answer">We are developing drink forecasting and category-level predictions, planned for launch in early 2026. Early users will be the first to get access to these new features.</p>
+            <p><strong>Not yet — we're working on it.</strong> Today you export manually (a few clicks). Direct integrations with major POS providers are on our roadmap. Early users get first access.</p>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Section 8: Final CTA -->
+  <!-- Section 9: Final CTA -->
   <section id="final-cta">
     <div class="container-narrow">
-      <h2 data-i18n="cta.title">Start planning smarter this week</h2>
-      <p data-i18n="cta.subtitle">Join the first wave of restaurants using weather-smart forecasts to cut waste and boost efficiency.</p>
-      <a href="start.html" class="btn-primary btn-xlarge" data-i18n="cta.button">Get started for €49</a>
-      <p class="cta-urgency" data-i18n="cta.urgency">Limited time offer</p>
+      <h2>Your daily prep plan, adjusted for the weather</h2>
+      <p>Export your sales data. We'll have your forecast ready in one business day.</p>
+      <a href="start.html" class="btn-primary btn-xlarge">Start 30 days for €49</a>
+      <p class="cta-urgency">No subscription · Stops automatically</p>
     </div>
   </section>
 
@@ -457,28 +451,28 @@
       <div class="footer-grid">
         <div class="footer-col">
           <h4>deitalite</h4>
-          <p data-i18n="footer.tagline">Weather-smart restaurant forecasting</p>
+          <p>Your daily prep plan, adjusted for the weather</p>
         </div>
         <div class="footer-col">
-          <h4 data-i18n="footer.links">Links</h4>
+          <h4>Links</h4>
           <ul>
-            <li><a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
-            <li><a href="terms.html" data-i18n="footer.terms">Terms of Service</a></li>
-            <li><a href="#faq" data-i18n="footer.faq">FAQ</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="#faq">FAQ</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4 data-i18n="footer.contact">Contact</h4>
+          <h4>Contact</h4>
           <p>info@deita.nl</p>
-          <p class="footer-note" data-i18n="footer.response">Response time: 24-48 hours</p>
+          <p class="footer-note">Response time: 24-48 hours</p>
         </div>
       </div>
       <div class="footer-cta">
-        <h3 data-i18n="footer.cta.title">Ready to reduce waste and improve planning?</h3>
-        <a href="start.html" class="btn-primary" data-i18n="footer.cta.button">Start forecasting for €49</a>
+        <h3>Ready to prep with confidence?</h3>
+        <a href="start.html" class="btn-primary">Start 30 days for €49</a>
       </div>
       <div class="footer-bottom">
-        <p data-i18n="footer.copyright">&copy; 2025 deita & deitalite. All rights reserved.</p>
+        <p>&copy; 2025 deita & deitalite. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -486,19 +480,17 @@
   <!-- Cookie / consent banner -->
   <div id="cookie-banner" class="cookie-banner">
     <div class="container cookie-banner-inner">
-      <p class="cookie-message" data-i18n="cookie.message">
+      <p class="cookie-message">
         We use cookies and Google Analytics to understand how visitors use deitalite and to improve the site. You can accept or decline analytics cookies. Read more in our <a href="privacy.html">Privacy Policy</a>.
       </p>
       <div class="cookie-actions">
-        <button id="cookie-accept" class="btn-primary btn-small" data-i18n="cookie.accept">Accept</button>
-        <button id="cookie-decline" class="btn-secondary btn-small" data-i18n="cookie.decline">Decline</button>
+        <button id="cookie-accept" class="btn-primary btn-small">Accept</button>
+        <button id="cookie-decline" class="btn-secondary btn-small">Decline</button>
       </div>
     </div>
   </div>
 
   <!-- Scripts -->
-  <script src="js/translations.js"></script>
-  <script src="js/i18n.js"></script>
   <script src="js/consent.js"></script>
   <script src="js/main.js"></script>
 </body>

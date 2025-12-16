@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Start your forecast | deitalite</title>
-  <meta name="description" content="Start your 30-day access to deitalite's weather-smart restaurant forecast. One-time €49 payment, no subscription.">
+  <title>Get your daily prep plan | deitalite</title>
+  <meta name="description" content="Get your daily prep plan adjusted for weather. €49 for 30 days, no subscription. Ready in 1 business day.">
 
   <!-- Open Graph (social sharing) -->
-  <meta property="og:title" content="Start your deitalite forecast">
-  <meta property="og:description" content="Pay once, upload your sales data, get a weather-smart forecast dashboard within one business day.">
+  <meta property="og:title" content="Get your daily prep plan | deitalite">
+  <meta property="og:description" content="Pay once, export your sales data, get item-level prep quantities for the next 7 days. Ready in 1 business day.">
   <meta property="og:type" content="website">
 
   <!-- Canonical URL -->
@@ -27,136 +27,145 @@
 </head>
 <body>
 
-  <!-- Header (matches main site) -->
+  <!-- Header -->
   <header id="header">
     <div class="container">
       <a href="index.html" class="logo">deitalite</a>
       <div class="header-right">
-        <!-- Language Selector -->
-        <div id="language-selector" class="language-selector">
-          <button class="lang-button">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="lang-icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802" />
-            </svg>
-            <span id="current-lang">English</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="chevron-icon">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-            </svg>
-          </button>
-          <div class="lang-dropdown">
-            <div class="lang-option" data-lang="en">
-              <span class="lang-flag">🇬🇧</span>
-              <span class="lang-name">English</span>
-            </div>
-            <div class="lang-option" data-lang="nl">
-              <span class="lang-flag">🇳🇱</span>
-              <span class="lang-name">Nederlands</span>
-            </div>
-            <div class="lang-option" data-lang="es">
-              <span class="lang-flag">🇪🇸</span>
-              <span class="lang-name">Español</span>
-            </div>
-          </div>
-        </div>
-        <a href="index.html#pricing" class="btn-secondary" data-i18n="start.hero.back">Back to overview</a>
+        <a href="index.html#pricing" class="btn-secondary">Back to overview</a>
       </div>
     </div>
   </header>
 
-  <!-- Start Page Hero -->
+  <!-- Start Page Hero (REWORKED - Artifact-first) -->
   <section id="start-hero">
     <div class="container-narrow">
-      <h1 data-i18n="start.hero.title">Start your 30-day access</h1>
-      <p class="hero-subheadline" data-i18n="start.hero.subtitle">
-        Pay a one-time fee of €49, upload your sales data, and get a weather-smart forecast dashboard for your restaurant within one business day. No subscription, no lock-in.
+      <h1>Get your daily prep plan</h1>
+      <p class="hero-subheadline">
+        Pay €49, export your sales data, and get item-level prep quantities for the next 7 days — adjusted for weather, updated every morning.
       </p>
-      <p class="start-badge" data-i18n="start.hero.badge">30 days access · No subscription · Stops automatically</p>
+      <p class="start-badge">30 days · No subscription · Stops automatically</p>
     </div>
   </section>
 
-  <!-- What You Get -->
+  <!-- What You Get + What You Need (REWORKED) -->
   <section id="start-what-you-get">
     <div class="container">
       <div class="start-grid">
         <div class="start-card">
-          <h2 data-i18n="start.what.title">What you get</h2>
+          <h2>What you get</h2>
           <ul class="start-list">
-            <li data-i18n="start.what.item1">30 days of access to your private forecast dashboard.</li>
-            <li data-i18n="start.what.item2">7-day rolling forecast that updates daily with weather.</li>
-            <li data-i18n="start.what.item3">Item-level predictions so you can plan prep and ordering.</li>
-            <li data-i18n="start.what.item4">Secure handling of your sales data.</li>
-            <li data-i18n="start.what.item5">Email support with a typical response time of 24–48 hours.</li>
+            <li><strong>30 days of access</strong> to your private daily prep plan.</li>
+            <li><strong>7-day rolling view</strong> — today + next 6 days, updated every morning with fresh weather.</li>
+            <li><strong>Item-level quantities</strong> — how many of each dish to prep, not just percentages.</li>
+            <li><strong>Busy/quiet highlights</strong> — see when a day looks different from normal.</li>
+            <li><strong>Download & share</strong> — export as CSV for kitchen, bar, or suppliers.</li>
+            <li><strong>Email support</strong> — response within 24–48 hours if you need help.</li>
           </ul>
         </div>
         <div class="start-card">
-          <h2 data-i18n="start.need.title">What you need ready</h2>
+          <h2>What you need</h2>
           <ul class="start-list">
-            <li data-i18n="start.need.item1">At least around 90 days of item-level sales data from your POS (CSV or Excel export).</li>
-            <li data-i18n="start.need.item2">Your restaurant’s location (city) so we can connect the right weather data.</li>
-            <li data-i18n="start.need.item3">An email address where we can send your upload link and dashboard login.</li>
+            <li><strong>Sales data from your POS</strong> — at least 90 days of item-level sales (CSV or Excel). 12 months is ideal.</li>
+            <li><strong>Your city</strong> — so we connect the right weather data.</li>
+            <li><strong>An email address</strong> — where we send your upload link and login.</li>
           </ul>
+          <div style="margin-top: var(--spacing-md); padding: var(--spacing-sm); background-color: var(--color-off-white); border-radius: var(--radius-sm);">
+            <p style="margin: 0; font-size: var(--font-size-small); color: var(--color-gray-medium);">
+              <strong style="color: var(--color-dark-text);">Not sure how to export?</strong> Most POS systems do it in a few clicks. We'll send simple instructions after payment — and if you get stuck, we'll help you through it.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- What Happens Next -->
+  <!-- What Happens Next (REWORKED - Tighter copy) -->
   <section id="start-steps">
     <div class="container-narrow">
-      <h2 data-i18n="start.steps.title">What happens after you pay</h2>
+      <h2>What happens after you pay</h2>
       <div class="steps-grid">
         <div class="step-card">
           <div class="step-number">1</div>
-          <h3 data-i18n="start.steps.step1.title">Secure checkout</h3>
-          <p data-i18n="start.steps.step1.text">You will be redirected to Moneybird’s secure payment page to pay €49 for 30 days of access.</p>
+          <h3>Secure checkout</h3>
+          <p>Pay €49 via Moneybird's secure payment page. No card details stored with us.</p>
         </div>
         <div class="step-card">
           <div class="step-number">2</div>
-          <h3 data-i18n="start.steps.step2.title">Upload your sales data</h3>
-          <p data-i18n="start.steps.step2.text">After payment, you receive an email with a secure upload link and simple instructions to export and send your sales data.</p>
+          <h3>Export & upload</h3>
+          <p>You get an email with a secure upload link + simple export instructions. Most POS systems: a few clicks.</p>
         </div>
         <div class="step-card">
           <div class="step-number">3</div>
-          <h3 data-i18n="start.steps.step3.title">Your dashboard is ready</h3>
-          <p data-i18n="start.steps.step3.text">Within one business day, we prepare your forecast and email your login details so you can start planning with your new dashboard.</p>
+          <h3>Your prep plan is ready</h3>
+          <p>Within 1 business day, we email your private link + password. Open it, check your week, start planning.</p>
         </div>
       </div>
-      <p class="start-note" data-i18n="start.note">
-        If you decide not to continue after 30 days, access stops automatically. You only pay again if you choose to renew.
-      </p>
-      <div class="hero-cta-buttons">
-        <a href="https://mnbrd.com/p/X3J86JA44yn2" class="btn-primary btn-large" data-i18n="start.cta.button">Continue to secure checkout</a>
+
+      <!-- Risk reducers block -->
+      <div style="margin-top: var(--spacing-xl); padding: var(--spacing-md); background-color: var(--color-off-white); border-radius: var(--radius-md); text-align: center;">
+        <p style="margin: 0 0 var(--spacing-xs) 0; font-size: var(--font-size-small); color: var(--color-gray-medium);">
+          <strong style="color: var(--color-dark-text);">No subscription. No lock-in.</strong>
+        </p>
+        <p style="margin: 0; font-size: var(--font-size-small); color: var(--color-gray-medium);">
+          Access stops automatically after 30 days. Continue only if you choose to.
+        </p>
       </div>
-      <p class="cta-urgency" data-i18n="start.cta.urgency">You can always come back to this page from the homepage if you are not ready yet.</p>
+
+      <!-- CTA -->
+      <div class="hero-cta-buttons" style="margin-top: var(--spacing-lg);">
+        <a href="https://mnbrd.com/p/X3J86JA44yn2" class="btn-primary btn-large">Start 30 days for €49</a>
+      </div>
+      <p class="cta-urgency">Not ready yet? You can always come back from the homepage.</p>
     </div>
   </section>
 
-  <!-- Footer -->
+  <!-- Quick FAQ for checkout hesitation -->
+  <section id="start-faq" style="background-color: var(--color-white); padding: var(--spacing-xl) 0;">
+    <div class="container-narrow">
+      <h2 style="font-size: var(--font-size-h3); margin-bottom: var(--spacing-lg);">Quick questions</h2>
+      <div style="text-align: left;">
+        <div style="margin-bottom: var(--spacing-md);">
+          <p style="margin: 0 0 4px 0;"><strong>What if I can't export from my POS?</strong></p>
+          <p style="margin: 0; color: var(--color-gray-medium);">We'll help. After payment, you get instructions for common POS systems. If yours isn't listed, email us — we'll figure it out together.</p>
+        </div>
+        <div style="margin-bottom: var(--spacing-md);">
+          <p style="margin: 0 0 4px 0;"><strong>What if it doesn't work for my restaurant?</strong></p>
+          <p style="margin: 0; color: var(--color-gray-medium);">You've paid €49 for 30 days. At the end, it stops. No subscription to cancel, no ongoing charges. If it helps, continue. If not, you're done.</p>
+        </div>
+        <div>
+          <p style="margin: 0 0 4px 0;"><strong>How long until I can use it?</strong></p>
+          <p style="margin: 0; color: var(--color-gray-medium);">1 business day after you upload your sales data. Most restaurants are checking their prep plan by the next morning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer (Simplified for checkout page) -->
   <footer id="footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
           <h4>deitalite</h4>
-          <p data-i18n="footer.tagline">Weather-smart restaurant forecasting</p>
+          <p>Your daily prep plan, adjusted for the weather</p>
         </div>
         <div class="footer-col">
-          <h4 data-i18n="footer.links">Links</h4>
+          <h4>Links</h4>
           <ul>
-            <li><a href="index.html#how-it-works" data-i18n="footer.how">How it works</a></li>
-            <li><a href="index.html#pricing" data-i18n="footer.pricing">Pricing</a></li>
-            <li><a href="index.html#faq" data-i18n="footer.faq">FAQ</a></li>
-            <li><a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
-            <li><a href="terms.html" data-i18n="footer.terms">Terms of Service</a></li>
+            <li><a href="index.html#how-it-works">How it works</a></li>
+            <li><a href="index.html#faq">FAQ</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4 data-i18n="footer.contact">Contact</h4>
+          <h4>Contact</h4>
           <p>info@deita.nl</p>
-          <p class="footer-note" data-i18n="footer.response">Response time: 24-48 hours</p>
+          <p class="footer-note">Response time: 24-48 hours</p>
         </div>
       </div>
       <div class="footer-bottom">
-        <p data-i18n="footer.copyright">&copy; 2025 deita &amp; deitalite. All rights reserved.</p>
+        <p>&copy; 2025 deita & deitalite. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -164,19 +173,17 @@
   <!-- Cookie / consent banner -->
   <div id="cookie-banner" class="cookie-banner">
     <div class="container cookie-banner-inner">
-      <p class="cookie-message" data-i18n="cookie.message">
+      <p class="cookie-message">
         We use cookies and Google Analytics to understand how visitors use deitalite and to improve the site. You can accept or decline analytics cookies. Read more in our <a href="privacy.html">Privacy Policy</a>.
       </p>
       <div class="cookie-actions">
-        <button id="cookie-accept" class="btn-primary btn-small" data-i18n="cookie.accept">Accept</button>
-        <button id="cookie-decline" class="btn-secondary btn-small" data-i18n="cookie.decline">Decline</button>
+        <button id="cookie-accept" class="btn-primary btn-small">Accept</button>
+        <button id="cookie-decline" class="btn-secondary btn-small">Decline</button>
       </div>
     </div>
   </div>
 
   <!-- Scripts -->
-  <script src="js/translations.js"></script>
-  <script src="js/i18n.js"></script>
   <script src="js/consent.js"></script>
   <script src="js/main.js"></script>
 </body>
