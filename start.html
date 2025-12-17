@@ -32,7 +32,19 @@
     <div class="container">
       <a href="index.html" class="logo">deitalite</a>
       <div class="header-right">
-        <a href="index.html#pricing" class="btn-secondary">Back to overview</a>
+        <a href="index.html#pricing" class="btn-secondary" data-i18n="start.hero.back">Back to overview</a>
+        <!-- Language Selector -->
+        <div id="language-selector" class="language-selector">
+          <span id="current-lang">English</span>
+          <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="14" height="14">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+          </svg>
+          <div class="lang-dropdown">
+            <div class="lang-option" data-lang="en">English</div>
+            <div class="lang-option" data-lang="nl">Nederlands</div>
+            <div class="lang-option" data-lang="es">Español</div>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -40,11 +52,11 @@
   <!-- Start Page Hero (REWORKED - Artifact-first) -->
   <section id="start-hero">
     <div class="container-narrow">
-      <h1>Get your daily prep plan</h1>
-      <p class="hero-subheadline">
+      <h1 data-i18n="start.hero.title">Get your daily prep plan</h1>
+      <p class="hero-subheadline" data-i18n="start.hero.subtitle">
         Pay €49, export your sales data, and get item-level prep quantities for the next 7 days — adjusted for weather, updated every morning.
       </p>
-      <p class="start-badge">30 days · No subscription · Stops automatically</p>
+      <p class="start-badge" data-i18n="start.hero.badge">30 days · No subscription · Stops automatically</p>
     </div>
   </section>
 
@@ -53,25 +65,25 @@
     <div class="container">
       <div class="start-grid">
         <div class="start-card">
-          <h2>What you get</h2>
+          <h2 data-i18n="start.what.title">What you get</h2>
           <ul class="start-list">
-            <li><strong>30 days of access</strong> to your private daily prep plan.</li>
-            <li><strong>7-day rolling view</strong> — today + next 6 days, updated every morning with fresh weather.</li>
-            <li><strong>Item-level quantities</strong> — how many of each dish to prep, not just percentages.</li>
-            <li><strong>Busy/quiet highlights</strong> — see when a day looks different from normal.</li>
-            <li><strong>Download & share</strong> — export as CSV for kitchen, bar, or suppliers.</li>
-            <li><strong>Email support</strong> — response within 24–48 hours if you need help.</li>
+            <li data-i18n="start.what.item1"><strong>30 days of access</strong> to your private daily prep plan.</li>
+            <li data-i18n="start.what.item2"><strong>7-day rolling view</strong> — today + next 6 days, updated every morning with fresh weather.</li>
+            <li data-i18n="start.what.item3"><strong>Item-level quantities</strong> — how many of each dish to prep, not just percentages.</li>
+            <li data-i18n="start.what.item4"><strong>Busy/quiet highlights</strong> — see when a day looks different from normal.</li>
+            <li data-i18n="start.what.item5"><strong>Download & share</strong> — export as CSV for kitchen, bar, or suppliers.</li>
+            <li data-i18n="start.what.item6"><strong>Email support</strong> — response within 24–48 hours if you need help.</li>
           </ul>
         </div>
         <div class="start-card">
-          <h2>What you need</h2>
+          <h2 data-i18n="start.need.title">What you need</h2>
           <ul class="start-list">
-            <li><strong>Sales data from your POS</strong> — at least 90 days of item-level sales (CSV or Excel). 12 months is ideal.</li>
-            <li><strong>Your city</strong> — so we connect the right weather data.</li>
-            <li><strong>An email address</strong> — where we send your upload link and login.</li>
+            <li data-i18n="start.need.item1"><strong>Sales data from your POS</strong> — at least 90 days of item-level sales (CSV or Excel). 12 months is ideal.</li>
+            <li data-i18n="start.need.item2"><strong>Your city</strong> — so we connect the right weather data.</li>
+            <li data-i18n="start.need.item3"><strong>An email address</strong> — where we send your upload link and login.</li>
           </ul>
           <div style="margin-top: var(--spacing-md); padding: var(--spacing-sm); background-color: var(--color-off-white); border-radius: var(--radius-sm);">
-            <p style="margin: 0; font-size: var(--font-size-small); color: var(--color-gray-medium);">
+            <p style="margin: 0; font-size: var(--font-size-small); color: var(--color-gray-medium);" data-i18n="start.need.help">
               <strong style="color: var(--color-dark-text);">Not sure how to export?</strong> Most POS systems do it in a few clicks. We'll send simple instructions after payment — and if you get stuck, we'll help you through it.
             </p>
           </div>
@@ -83,59 +95,59 @@
   <!-- What Happens Next (REWORKED - Tighter copy) -->
   <section id="start-steps">
     <div class="container-narrow">
-      <h2>What happens after you pay</h2>
+      <h2 data-i18n="start.steps.title">What happens after you pay</h2>
       <div class="steps-grid">
         <div class="step-card">
           <div class="step-number">1</div>
-          <h3>Secure checkout</h3>
-          <p>Pay €49 via Moneybird's secure payment page. No card details stored with us.</p>
+          <h3 data-i18n="start.steps.step1.title">Secure checkout</h3>
+          <p data-i18n="start.steps.step1.text">Pay €49 via Moneybird's secure payment page. No card details stored with us.</p>
         </div>
         <div class="step-card">
           <div class="step-number">2</div>
-          <h3>Export & upload</h3>
-          <p>You get an email with a secure upload link + simple export instructions. Most POS systems: a few clicks.</p>
+          <h3 data-i18n="start.steps.step2.title">Export & upload</h3>
+          <p data-i18n="start.steps.step2.text">You get an email with a secure upload link + simple export instructions. Most POS systems: a few clicks.</p>
         </div>
         <div class="step-card">
           <div class="step-number">3</div>
-          <h3>Your prep plan is ready</h3>
-          <p>Within 1 business day, we email your private link + password. Open it, check your week, start planning.</p>
+          <h3 data-i18n="start.steps.step3.title">Your prep plan is ready</h3>
+          <p data-i18n="start.steps.step3.text">Within 1 business day, we email your private link + password. Open it, check your week, start planning.</p>
         </div>
       </div>
 
       <!-- Risk reducers block -->
       <div style="margin-top: var(--spacing-xl); padding: var(--spacing-md); background-color: var(--color-off-white); border-radius: var(--radius-md); text-align: center;">
-        <p style="margin: 0 0 var(--spacing-xs) 0; font-size: var(--font-size-small); color: var(--color-gray-medium);">
+        <p style="margin: 0 0 var(--spacing-xs) 0; font-size: var(--font-size-small); color: var(--color-gray-medium);" data-i18n="start.risk.title">
           <strong style="color: var(--color-dark-text);">No subscription. No lock-in.</strong>
         </p>
-        <p style="margin: 0; font-size: var(--font-size-small); color: var(--color-gray-medium);">
+        <p style="margin: 0; font-size: var(--font-size-small); color: var(--color-gray-medium);" data-i18n="start.risk.text">
           Access stops automatically after 30 days. Continue only if you choose to.
         </p>
       </div>
 
       <!-- CTA -->
       <div class="hero-cta-buttons" style="margin-top: var(--spacing-lg);">
-        <a href="https://mnbrd.com/p/X3J86JA44yn2" class="btn-primary btn-large">Start 30 days for €49</a>
+        <a href="https://mnbrd.com/p/X3J86JA44yn2" class="btn-primary btn-large" data-i18n="start.cta.button">Start 30 days for €49</a>
       </div>
-      <p class="cta-urgency">Not ready yet? You can always come back from the homepage.</p>
+      <p class="cta-urgency" data-i18n="start.cta.urgency">Not ready yet? You can always come back from the homepage.</p>
     </div>
   </section>
 
   <!-- Quick FAQ for checkout hesitation -->
   <section id="start-faq" style="background-color: var(--color-white); padding: var(--spacing-xl) 0;">
     <div class="container-narrow">
-      <h2 style="font-size: var(--font-size-h3); margin-bottom: var(--spacing-lg);">Quick questions</h2>
+      <h2 style="font-size: var(--font-size-h3); margin-bottom: var(--spacing-lg);" data-i18n="start.faq.title">Quick questions</h2>
       <div style="text-align: left;">
         <div style="margin-bottom: var(--spacing-md);">
-          <p style="margin: 0 0 4px 0;"><strong>What if I can't export from my POS?</strong></p>
-          <p style="margin: 0; color: var(--color-gray-medium);">We'll help. After payment, you get instructions for common POS systems. If yours isn't listed, email us — we'll figure it out together.</p>
+          <p style="margin: 0 0 4px 0;" data-i18n="start.faq.q1.question"><strong>What if I can't export from my POS?</strong></p>
+          <p style="margin: 0; color: var(--color-gray-medium);" data-i18n="start.faq.q1.answer">We'll help. After payment, you get instructions for common POS systems. If yours isn't listed, email us — we'll figure it out together.</p>
         </div>
         <div style="margin-bottom: var(--spacing-md);">
-          <p style="margin: 0 0 4px 0;"><strong>What if it doesn't work for my restaurant?</strong></p>
-          <p style="margin: 0; color: var(--color-gray-medium);">You've paid €49 for 30 days. At the end, it stops. No subscription to cancel, no ongoing charges. If it helps, continue. If not, you're done.</p>
+          <p style="margin: 0 0 4px 0;" data-i18n="start.faq.q2.question"><strong>What if it doesn't work for my restaurant?</strong></p>
+          <p style="margin: 0; color: var(--color-gray-medium);" data-i18n="start.faq.q2.answer">You've paid €49 for 30 days. At the end, it stops. No subscription to cancel, no ongoing charges. If it helps, continue. If not, you're done.</p>
         </div>
         <div>
-          <p style="margin: 0 0 4px 0;"><strong>How long until I can use it?</strong></p>
-          <p style="margin: 0; color: var(--color-gray-medium);">1 business day after you upload your sales data. Most restaurants are checking their prep plan by the next morning.</p>
+          <p style="margin: 0 0 4px 0;" data-i18n="start.faq.q3.question"><strong>How long until I can use it?</strong></p>
+          <p style="margin: 0; color: var(--color-gray-medium);" data-i18n="start.faq.q3.answer">1 business day after you upload your sales data. Most restaurants are checking their prep plan by the next morning.</p>
         </div>
       </div>
     </div>
@@ -147,25 +159,25 @@
       <div class="footer-grid">
         <div class="footer-col">
           <h4>deitalite</h4>
-          <p>Your daily prep plan, adjusted for the weather</p>
+          <p data-i18n="footer.tagline">Your daily prep plan, adjusted for the weather</p>
         </div>
         <div class="footer-col">
-          <h4>Links</h4>
+          <h4 data-i18n="footer.links">Links</h4>
           <ul>
-            <li><a href="index.html#how-it-works">How it works</a></li>
-            <li><a href="index.html#faq">FAQ</a></li>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="index.html#how-it-works" data-i18n="footer.how">How it works</a></li>
+            <li><a href="index.html#faq" data-i18n="footer.faq">FAQ</a></li>
+            <li><a href="privacy.html" data-i18n="footer.privacy">Privacy Policy</a></li>
+            <li><a href="terms.html" data-i18n="footer.terms">Terms of Service</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Contact</h4>
+          <h4 data-i18n="footer.contact">Contact</h4>
           <p>info@deita.nl</p>
-          <p class="footer-note">Response time: 24-48 hours</p>
+          <p class="footer-note" data-i18n="footer.response">Response time: 24-48 hours</p>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2025 deita & deitalite. All rights reserved.</p>
+        <p data-i18n="footer.copyright">&copy; 2025 deita & deitalite. All rights reserved.</p>
       </div>
     </div>
   </footer>
@@ -173,17 +185,19 @@
   <!-- Cookie / consent banner -->
   <div id="cookie-banner" class="cookie-banner">
     <div class="container cookie-banner-inner">
-      <p class="cookie-message">
+      <p class="cookie-message" data-i18n="cookie.message">
         We use cookies and Google Analytics to understand how visitors use deitalite and to improve the site. You can accept or decline analytics cookies. Read more in our <a href="privacy.html">Privacy Policy</a>.
       </p>
       <div class="cookie-actions">
-        <button id="cookie-accept" class="btn-primary btn-small">Accept</button>
-        <button id="cookie-decline" class="btn-secondary btn-small">Decline</button>
+        <button id="cookie-accept" class="btn-primary btn-small" data-i18n="cookie.accept">Accept</button>
+        <button id="cookie-decline" class="btn-secondary btn-small" data-i18n="cookie.decline">Decline</button>
       </div>
     </div>
   </div>
 
   <!-- Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/consent.js"></script>
   <script src="js/main.js"></script>
 </body>
