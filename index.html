@@ -147,8 +147,8 @@
         </div>
         <div class="step-card">
           <div class="step-number">3</div>
-          <h3 data-i18n="how.step3.title">Check your daily prep plan</h3>
-          <p data-i18n="how.step3.text">You get a private link. Open it each morning, see item quantities for the week ahead. 30 seconds and you're done.</p>
+          <h3 data-i18n="how.step3.title">Check your email each morning</h3>
+          <p data-i18n="how.step3.text">Every morning at 6am, you get an email with item quantities for the week ahead. 30 seconds and you're done.</p>
         </div>
       </div>
       <p style="text-align: center; margin-top: var(--spacing-lg); color: var(--color-gray-medium);" data-i18n="how.note">No app, no training, no new workflow.</p>
@@ -275,7 +275,7 @@
   <section id="proof">
     <div class="container">
       <h2 data-i18n="proof.title">What you'll check each morning</h2>
-      <p style="text-align: center; color: var(--color-gray-medium); margin-bottom: var(--spacing-xl);" data-i18n="proof.subtitle">Your private dashboard shows item quantities for the next 7 days — updated with fresh weather data every morning.</p>
+      <p style="text-align: center; color: var(--color-gray-medium); margin-bottom: var(--spacing-xl);" data-i18n="proof.subtitle">Your daily email shows item quantities for the next 7 days — updated with fresh weather data every morning.</p>
 
       <div class="proof-screenshot">
         <img src="assets/images/hero-dashboard.png" alt="deitalite dashboard showing daily prep quantities" style="border-radius: var(--radius-md); box-shadow: var(--shadow-card); max-width: 100%;">
@@ -299,8 +299,29 @@
         </div>
       </div>
 
-      <div class="section-cta" style="margin-top: var(--spacing-xl);">
-        <a href="https://deielurbe.shinyapps.io/deita-forecast-demo/" class="btn-secondary btn-large" target="_blank" data-i18n="proof.cta">Try the demo</a>
+      <!-- Demo email collection form -->
+      <div class="demo-form-container" style="margin-top: var(--spacing-xl); text-align: center;">
+        <p style="margin-bottom: var(--spacing-sm); color: var(--color-dark-text); font-weight: 600;" data-i18n="proof.form.title">Want to see a live sample?</p>
+        <p style="margin-bottom: var(--spacing-md); color: var(--color-gray-medium); font-size: var(--font-size-small);" data-i18n="proof.form.subtitle">Enter your email and we'll send you a real forecast — with today's weather.</p>
+        <form
+          action="https://formspree.io/f/mdanvlpg"
+          method="POST"
+          class="demo-form"
+          style="display: flex; gap: var(--spacing-sm); justify-content: center; flex-wrap: wrap; max-width: 500px; margin: 0 auto;"
+        >
+          <input
+            type="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+            style="flex: 1; min-width: 250px; padding: 14px 18px; border: 2px solid var(--color-gray-light); border-radius: var(--radius-md); font-size: var(--font-size-body); font-family: var(--font-family);"
+          >
+          <button
+            type="submit"
+            class="btn-primary btn-large"
+            data-i18n="proof.form.submit"
+          >Send me a sample</button>
+        </form>
       </div>
     </div>
   </section>
@@ -320,7 +341,7 @@
           <li data-i18n="pricing.feature1">✓ Daily prep quantities, item by item</li>
           <li data-i18n="pricing.feature2">✓ 7-day forecast, updated every morning</li>
           <li data-i18n="pricing.feature3">✓ Weather checked automatically</li>
-          <li data-i18n="pricing.feature4">✓ Your own private dashboard</li>
+          <li data-i18n="pricing.feature4">✓ Delivered to your inbox at 6am</li>
           <li data-i18n="pricing.feature5">✓ Ready in 1 business day</li>
         </ul>
         <a href="start.html" class="btn-primary btn-large" data-i18n="pricing.cta">Start 30 days for €49</a>
@@ -359,7 +380,7 @@
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q3.answer"><strong>Open link → check quantities → share with team. 30 seconds.</strong> Most restaurants check once a day or a few times a week. You see the next 7 days, adjust prep/ordering/staffing accordingly. It's a quick check, not a system to manage.</p>
+            <p data-i18n="faq.q3.answer"><strong>Check email → see quantities → share with team. 30 seconds.</strong> Most restaurants check once a day or a few times a week. You see the next 7 days, adjust prep/ordering/staffing accordingly. It's a quick check, not a system to manage.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -377,7 +398,7 @@
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q5.answer"><strong>1 business day.</strong> You export and send your sales data. We build your forecast and send you a private link + password within one business day.</p>
+            <p data-i18n="faq.q5.answer"><strong>1 business day.</strong> You export and send your sales data. We build your forecast and start sending daily emails within one business day.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -395,7 +416,7 @@
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p data-i18n="faq.q7.answer"><strong>Normal — we handle it.</strong> Each item ideally needs 90 days of history for best accuracy. New dishes work but are less precise. We can also group similar items so the forecast stays useful for prep.</p>
+            <p data-i18n="faq.q7.answer"><strong>Normal — we handle it.</strong> Each item needs at least 90 days of history; a full year gives best accuracy (captures seasonality). New dishes work but are less precise until they build history. We can also group similar items so the forecast stays useful for prep.</p>
           </div>
         </div>
         <div class="faq-item">
@@ -475,7 +496,7 @@
         </div>
         <div class="footer-col">
           <h4 data-i18n="footer.contact">Contact</h4>
-          <p>info@deita.nl</p>
+          <p>info@deita.eu</p>
           <p class="footer-note" data-i18n="footer.response">Response time: 24-48 hours</p>
         </div>
       </div>

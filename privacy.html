@@ -44,7 +44,7 @@
       <h3 style="margin-top: 24px; margin-bottom: 12px;">1.2 Automatically Collected Information</h3>
       <p style="margin-bottom: 16px;">We automatically collect:</p>
       <ul style="list-style: disc; padding-left: 32px; margin-bottom: 24px;">
-        <li style="margin-bottom: 8px;"><strong>Usage Data:</strong> Dashboard access logs, forecast views, CSV exports</li>
+        <li style="margin-bottom: 8px;"><strong>Usage Data:</strong> Email delivery logs, forecast opens (if tracked)</li>
         <li style="margin-bottom: 8px;"><strong>Device Information:</strong> Browser type, operating system, IP address (for security purposes)</li>
         <li style="margin-bottom: 8px;"><strong>Weather Data:</strong> We fetch public weather data from OpenMeteo API based on your restaurant's location</li>
       </ul>
@@ -54,7 +54,7 @@
       <ul style="list-style: disc; padding-left: 32px; margin-bottom: 24px;">
         <li style="margin-bottom: 8px;">Train custom machine learning models specific to your restaurant</li>
         <li style="margin-bottom: 8px;">Generate 7-day sales forecasts updated daily with weather data</li>
-        <li style="margin-bottom: 8px;">Provide access to your private forecasting dashboard</li>
+        <li style="margin-bottom: 8px;">Deliver daily forecast emails with PDF attachments</li>
         <li style="margin-bottom: 8px;">Communicate service updates, onboarding instructions, and support responses</li>
         <li style="margin-bottom: 8px;">Process payments via Moneybird Payments</li>
         <li style="margin-bottom: 8px;">Improve our forecasting algorithms and service quality (using anonymized, aggregated data)</li>
@@ -66,9 +66,9 @@
       <h3 style="margin-top: 24px; margin-bottom: 12px;">3.1 Where We Store Your Data</h3>
       <p style="margin-bottom: 16px;">Your data is stored:</p>
       <ul style="list-style: disc; padding-left: 32px; margin-bottom: 24px;">
-        <li style="margin-bottom: 8px;"><strong>Sales Data:</strong> Encrypted at rest on secure local servers or cloud storage (AWS S3, Google Drive, or Dropbox)</li>
-        <li style="margin-bottom: 8px;"><strong>Trained Models:</strong> Stored securely and accessible only via your private dashboard URL</li>
-        <li style="margin-bottom: 8px;"><strong>Dashboard:</strong> Hosted on shinyapps.io (Posit's secure cloud platform)</li>
+        <li style="margin-bottom: 8px;"><strong>Sales Data:</strong> Encrypted at rest on secure cloud storage (Google Drive with Google Workspace)</li>
+        <li style="margin-bottom: 8px;"><strong>Trained Models:</strong> Stored securely and used only for generating your forecasts</li>
+        <li style="margin-bottom: 8px;"><strong>Forecast Delivery:</strong> Sent via Gmail (Google Workspace) to your registered email</li>
       </ul>
 
       <h3 style="margin-top: 24px; margin-bottom: 12px;">3.2 Security Measures</h3>
@@ -85,7 +85,7 @@
       <p style="margin-bottom: 16px;"><strong>We do not sell, rent, or trade your data.</strong></p>
       <p style="margin-bottom: 16px;">We may share your information only in the following circumstances:</p>
       <ul style="list-style: disc; padding-left: 32px; margin-bottom: 24px;">
-        <li style="margin-bottom: 8px;"><strong>Service Providers:</strong> We use third-party services (Moneybird Payments for payments, OpenMeteo for weather data, shinyapps.io for hosting). These providers have their own privacy policies and are bound by confidentiality agreements.</li>
+        <li style="margin-bottom: 8px;"><strong>Service Providers:</strong> We use third-party services (Moneybird Payments for payments, OpenMeteo for weather data, Google Workspace for email delivery and storage). These providers have their own privacy policies and are bound by confidentiality agreements.</li>
         <li style="margin-bottom: 8px;"><strong>Legal Requirements:</strong> We may disclose data if required by law (e.g., court orders, subpoenas) or to protect our rights and safety.</li>
         <li style="margin-bottom: 8px;"><strong>Aggregated Data:</strong> We may share anonymized, aggregated statistics (e.g., "average forecast accuracy across 50 restaurants") for research or marketing purposes. This data cannot be used to identify you or your restaurant.</li>
       </ul>
@@ -93,7 +93,7 @@
       <h2 style="margin-top: 48px; margin-bottom: 16px;">5. Data Retention</h2>
       <p style="margin-bottom: 24px;">We retain your data for as long as your account is active or as needed to provide services. If you cancel your subscription:</p>
       <ul style="list-style: disc; padding-left: 32px; margin-bottom: 24px;">
-        <li style="margin-bottom: 8px;">Your dashboard access is disabled immediately</li>
+        <li style="margin-bottom: 8px;">Your forecast emails stop immediately</li>
         <li style="margin-bottom: 8px;">Your sales data and models are deleted within 30 days, unless you request earlier deletion</li>
         <li style="margin-bottom: 8px;">Billing records are retained for 7 years for tax/accounting compliance</li>
       </ul>
@@ -107,23 +107,23 @@
         <li style="margin-bottom: 8px;"><strong>Portability:</strong> Receive your data in a machine-readable format (CSV)</li>
         <li style="margin-bottom: 8px;"><strong>Opt-Out:</strong> Unsubscribe from marketing emails (service emails are still required)</li>
       </ul>
-      <p style="margin-bottom: 24px;">To exercise these rights, email us at <a href="mailto:info@deita.nl" style="color: #3498DB;">info@deita.nl</a></p>
+      <p style="margin-bottom: 24px;">To exercise these rights, email us at <a href="mailto:info@deita.eu" style="color: #3498DB;">info@deita.eu</a></p>
 
       <h2 style="margin-top: 48px; margin-bottom: 16px;">7. Cookies and Tracking</h2>
-      <p style="margin-bottom: 16px;">We use cookies and similar technologies on our marketing website and dashboard:</p>
+      <p style="margin-bottom: 16px;">We use cookies and similar technologies on our marketing website:</p>
       <ul style="list-style: disc; padding-left: 32px; margin-bottom: 24px;">
-        <li style="margin-bottom: 8px;"><strong>Essential Cookies:</strong> Required for the website to function (for example, session cookies for dashboard login and basic security).</li>
+        <li style="margin-bottom: 8px;"><strong>Essential Cookies:</strong> Required for the website to function (for example, session cookies and basic security).</li>
         <li style="margin-bottom: 8px;"><strong>Analytics Cookies:</strong> Used to understand how visitors use our public website (page views, clicked buttons, scroll depth). We currently use Google Analytics 4 for this, and may also use Plausible Analytics in the future.</li>
       </ul>
       <p style="margin-bottom: 16px;">Analytics cookies are <strong>optional</strong>. On the public website, we only load Google Analytics after you have explicitly accepted analytics cookies via the cookie banner. If you decline, we do not load Google Analytics and do not set analytics cookies.</p>
-      <p style="margin-bottom: 24px;">You can also disable cookies in your browser settings, but some features (particularly the dashboard) may not work properly without essential cookies.</p>
+      <p style="margin-bottom: 24px;">You can also disable cookies in your browser settings, but some website features may not work properly without essential cookies.</p>
 
       <h2 style="margin-top: 48px; margin-bottom: 16px;">8. Third-Party Services</h2>
       <p style="margin-bottom: 16px;">We use the following third-party services:</p>
       <ul style="list-style: disc; padding-left: 32px; margin-bottom: 24px;">
         <li style="margin-bottom: 8px;"><strong>Moneybird Payments:</strong> Payment processing (<a href="https://www.moneybird.nl/privacy/" target="_blank" style="color: #3498DB;">Moneybird Privacy Policy</a>)</li>
         <li style="margin-bottom: 8px;"><strong>OpenMeteo:</strong> Weather data (<a href="https://open-meteo.com/en/terms" target="_blank" style="color: #3498DB;">OpenMeteo Terms</a>)</li>
-        <li style="margin-bottom: 8px;"><strong>shinyapps.io:</strong> Dashboard hosting (<a href="https://posit.co/about/privacy-policy/" target="_blank" style="color: #3498DB;">Posit Privacy Policy</a>)</li>
+        <li style="margin-bottom: 8px;"><strong>Google Workspace:</strong> Email delivery and cloud storage (<a href="https://policies.google.com/privacy" target="_blank" style="color: #3498DB;">Google Privacy Policy</a>)</li>
         <li style="margin-bottom: 8px;"><strong>Google Analytics 4:</strong> Website analytics for our public site, operated by Google Ireland Limited. We use GA4 to measure visits, traffic sources and interactions in aggregate, and we configure it with IP anonymization. Analytics cookies are only set after you give consent via our cookie banner. (<a href="https://policies.google.com/privacy" target="_blank" style="color: #3498DB;">Google Privacy Policy</a>)</li>
         <li style="margin-bottom: 8px;"><strong>Plausible Analytics (optional):</strong> A privacy-friendly analytics service we may use for additional high-level statistics. Plausible does not use cookies and does not store personal data. (<a href="https://plausible.io/privacy" target="_blank" style="color: #3498DB;">Plausible Privacy Policy</a>)</li>
       </ul>
@@ -146,7 +146,7 @@
       <h2 style="margin-top: 48px; margin-bottom: 16px;">12. Contact Us</h2>
       <p style="margin-bottom: 16px;">If you have questions or concerns about this Privacy Policy or our data practices, please contact us:</p>
       <ul style="list-style: none; padding-left: 0; margin-bottom: 48px;">
-        <li style="margin-bottom: 8px;"><strong>Email:</strong> <a href="mailto:info@deita.nl" style="color: #3498DB;">info@deita.nl</a></li>
+        <li style="margin-bottom: 8px;"><strong>Email:</strong> <a href="mailto:info@deita.eu" style="color: #3498DB;">info@deita.eu</a></li>
         <li style="margin-bottom: 8px;"><strong>Response Time:</strong> 24-48 hours</li>
       </ul>
 
@@ -174,7 +174,7 @@
         </div>
         <div class="footer-col">
           <h4>Contact</h4>
-          <p>info@deita.nl</p>
+          <p>info@deita.eu</p>
           <p class="footer-note">Response time: 24-48 hours</p>
         </div>
       </div>
